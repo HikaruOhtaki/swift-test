@@ -25,5 +25,4 @@ jobs:
     - uses: kishikawakatsumi/xcresulttool@v1.4.0
       with:
         path: .build/TestResults.xcresult
-        show-code-coverage: false
       if: success() || failure()
