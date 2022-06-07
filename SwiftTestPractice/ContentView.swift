@@ -19,3 +19,15 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+final class Hoge {
+    var text = "HUGA"
+    
+    internal func hogehoge() {
+        text = "HOGEHOGE"
+    }
+    
+    internal func hugahuga() {
+        text = "HUGAHUGA"
+    }
+}

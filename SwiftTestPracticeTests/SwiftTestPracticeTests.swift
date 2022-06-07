@@ -32,5 +32,18 @@ class SwiftTestPracticeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testHogeHoge() {
+        let model = Hoge()
+        XCTAssertEqual(model.text, "HUGA")
+        model.hugahuga()
+        XCTAssertEqual(model.text, "HUGAHUGA")
+    }
 
+    func testHugaHuga() {
+        let model = Hoge()
+        XCTAssertEqual(model.text, "HUGA")
+        model.hogehoge()
+        XCTAssertEqual(model.text, "HOGEHOGE")
+    }
 }
